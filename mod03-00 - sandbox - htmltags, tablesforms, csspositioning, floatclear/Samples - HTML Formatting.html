@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="icon" type="image/png" href="">
+		<link rel="stylesheet" type="text/css" href="assets/css/.css">
+	</head>
+	<body bgcolor="lightgray">
+		Document and Text formatting:
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <div>this sentence is inside a div tag and is in between the lorem sentence. it created both a line break and a space/blank line before this sentence. However, right after the div tag, it only created a new line but not a space/blank line which makes the next sentence appear right after this line.</div> Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<hr/>
+		the following are examples of div tagged with "left" and "right" align attribute value:
+		<div align="left">
+			<p>paragraph 1 is inside div tag with left alignment</p>
+			<p>paragraph 2 is inside div tag with left alignment</p>
+			<p>paragraph 3 is inside div with left alignment</p>
+		</div>
+
+		<div align="right">
+			<p>paragraph 1 is inside div tag with right alignment</p>
+			<p>paragraph 2 is inside div tag with right alignment</p>
+			<p>paragraph 3 is inside div tag with right alignment</p>
+		</div>
+
+		<hr/>
+		<section id="redtextsection">
+			<div>This <span class="red">text</span> is <p class="red">red</p> and a new paragraph is created starting from and after the word "red".  The first "text" word colored in red is inside a span tag; while the word "red" colored in red is under a p tag.</p></div>
+
+			<div>div tag is a block element</div> it created a new line after the closing div tag.
+			<span>this sentence is inside span tag is not a blocked tag. p tag however is known is a blocked tagged.</span>  The following example on strong is only separated from this sentence using a line break or br tag.
+		</section>
+		<br/>
+		<strong>This is a strong tag</strong>
+		This statement has an emphasis on the word <em>"emphasis"</em> by using the <em>em</em> tag.
+
+		<q>this sentence is inside a quote tag</q>
+
+		<p>The best practice is to use text formatting such as <strong>strong tag</strong>, <em>emphasis tag</em>, <q>quote tag</q>, etc. in html document to put meaning to the text document depending on the purpose of the text, sentence or paragraph.  On the otherhand, use CSS for aesthetics purposes of a text, sentence or paragraph.</p>
+
+		<p>I was born on the 4<sup>th</sup> of November.  The "th" in this example is inside a sup tag</p>
+		<p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2010. the "2" in CO2 in this example is inside the sub tag</p>
+
+		<p>
+			We use the <abbr title="Hypertext Markup Language">HTML</abbr> to create web pages.  The word "HTML" is inside a abbr tag and it puts a dashed underline and shows the meaning of the acronym "HTML" when you hover the pointer
+		</p>
+
+		<blockquote cite="http://samplecite.com">
+		<p>This is a paragraph inside a blockquote tag.</p>
+		<footer>
+			-Crazy guy in the digital world.
+		</footer>
+		</blockquote>
+
+		<p>The following is another sample of a sentence inside a blockquote</p>
+		<blockquote>Quotation sentence inside a blockquote</blockquote> <blockquote>This is another sentence inside a blockquote tag right after a blockquote tag.  Blockquote is a blocked tag which creates: 1. a new line before and after the quote and automatically indent the quotation or sentence.</blockquote>
+
+		<p>
+			The word <del>worst</del> is inside del tag.  While the word <ins>best</ins> is inside the ins tage.
+		</p>
+
+		<p>Buy this laptop Now</p>
+		<p><s>Was $1000</s></p>
+		<p>Now only $200</p>
+		<p>in the above example the "Was $1000" is inside the "s" tag.</p>
+		<p>This is a paragraph. Followed by the following small tag.</p>
+		<small>This entire sentence is inside a small tag.  It's a smaller-sized text usually used for copyright or any legal note. </small> and is not a blocked tag as demonstrated in this next sentence
+
+		<hr/>
+		Link formatting:
+		<p>this is a <a href="google.com">link going to google</a></p>
+
+		<hr/>
+		List formatting:
+		<p>The following is an ol list:</p>
+		<ol> 
+			<li>Order List 1</li>
+			<li>Order List 2</li>
+		</ol>
+		<ol type="A"> 
+			<li>Order List 1</li>
+			<li>Order List 2</li>
+		</ol>
+
+		<p>This is an ul list:</p>
+		<ul>
+			<li>Unordered List 1</li>
+			<li>Unordered List 2</li>
+		</ul>
+
+		<p>The follwoing is a nested list using UL:</p>
+		<ul>
+			<li>Unordered List 1</li>
+				<ul>
+					<li>Unordered List 1</li>
+					<li>Unordered List 2</li>
+				</ul>
+			<li>Unordered List 2</li>
+		</ul>
+
+		<p>The following is a defintion list using DL then DT then DD:</p>
+		<dl>
+			<dt>Definition List 1</dt>
+				<dd>Definition List 1</dd>
+			<dt>Unordered List 1</dt>
+				<dd>Definition List 2</dd>
+				<dd>Definition List 3</dd>
+		</dl>
+
+		<hr>
+		<section id="linksamples">Email link example: </section>
+
+		<p>
+			click <a href="mailto:someone@yoursite.com?subject=RE: NBT">here </a> to send an email!
+		</p>		
+
+		<p>
+			This <a href="#redtextsection">link</a> goes to the "This text is red" section.
+		</p>
+
+		<p>
+			<a href="about/about.html">Go to About Page</a>
+		</p>
+
+		<p>
+			<a href="about/about.html#secondlorem">Jump to About Page Second Lorem</a>
+		</p>
+
+		<p>
+			<a href="about/about.html#thirdlorem">Jump to About Page Third Lorem</a>
+		</p>
+
+		<p>
+			<a href="about/about.html#fourthlorem">Jump to About Page Fourth Lorem</a>
+		</p>
+
+		<p>
+			<a href="about/about.html#fifthlorem">Jump to About Page Fifth Lorem</a>
+		</p>
+
+		<p>
+			<img src="assets/images/spaceroom.jpg" alt="Space Room">
+		</p>
+
+		<p>
+			<img src="assets/images/samplelayers.png" alt="Layer">
+		</p>
+
+		Table Map: Go Research and Learn!
+		<p>
+			<img src="assets/images/image-map.jpg" alt="Image Map">
+		</p>
+
+		<hr/>
+		<h2>Tables:</h2>
+
+		<table border="1">
+			<tr>
+				<td>Column1 Row1</td>
+				<td>Column2 Row1</td>
+				<td>Column3 Row1</td>
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+				<td>Column3 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with Table Heading</h3>
+		<table border="1">
+			<tr>
+				<th>Column1 Heading</th>
+				<th>Column2 Heading</th>
+				<th>Column3 Heading</th>
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+				<td>Column3 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with colspan</h3>
+		<table border="1">
+			<tr>
+				<td colspan=2>Column1 Row1 with 2 colspan</td>
+				<td>Column2 Row1</td>
+
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+				<td>Column3 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with rowspan</h3>
+		<table border="1">
+			<tr>
+				<td rowspan=2>Column1 Row1 with 2 colspan</td>
+				<td>Column2 Row1</td>
+				<td>Column3 Row1</td>
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with scope=col or row</h3>
+
+		<table border="1">
+			<tr>
+				<th>			Column1 Row1</th>
+				<th scope="col">Column2 Row1</th>
+				<th scope="col">Column3 Row1</th>
+			</tr>
+			<tr>
+				<th scope="row">Column1 Row2</th>
+				<td colspan="2">Column2 Row2</td>
+			</tr>
+			<tr>
+				<th>Column1 Row3</th>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<hr/>
+		<h2>Forms</h2>
+
+		<form action="#" method="get">
+			<p>This is a in input type = TEXT</p>
+			<input type="text" name="textbox1" value="" placeholder="username" required>
+
+			<p>This is a in input type = PASSWORD</p>
+			<input type="password" name="passwordtextbox" placeholder="password" required disabled>
+
+			<p>The following are input type = RADIO</p>
+			<input type="radio" name="category1" value="option1">Option1
+						<input type="radio" name="categoryFILElue="option2" checked>Option2
+			<input type="radio" name="cfilery1" valfileinputon3">Option3
+
+			<p>The follwowing are input type = CHECKBOX:</p>
+			<input type="checkbox" name="category1" value="option1" checked>Option1
+			<input type="checkbox" name="category1" value="option2">Option2
+			<input type="checkbox" name="category1" value="option3">Option3
+
+			<p>The follwowing is an input type = EMAIL </p>
+			<input type="email" name="emailbox">
+
+			<p>The follwowing is an input type = NUMBER </p>
+			<input type="number" name="numberbox" placeholder="number only">
+
+			<p>The follwowing is a TEXTAREA </p>
+			<textarea name="comments">default value</textarea>
+				
+
+			<p>The follwowing is a SELECT </p>
+
+			<select name="">
+				<option value="value1">Dropdown 1</option>
+				<option value="value2" selected>Dropdown 2</option>
+				<option value="value3">Dropdown 3</option>
+			</select>
+
+			<p>The follwowing is an input type = FILE </p>
+			<input type="file" name="fileinput">
+			
+			<p>The follwowing is an input type = FILE </p>
+			<input type="file" name="fileinput">			
+
+			<p>The follwowing is a LABEL beside an input file TEXT box </p>
+			<label>Label Text</label>
+			<input type="text" name="textbox">	
+
+			<p>The follwowing is an input type = SUBMIT.  It processes all data/all form objects within the form tag </p>
+			<input type="submit" name="submit">
+
+			<p>The following is a BUTTON with "Cancelled" text</p>
+			<button>Cancel</button>
+
+			<p>The following is an example of a FIELDSET (way to group an form objects)
+			</p>
+			<fieldset>
+				<legend>Login Form</legend>
+				<label>Username</label>
+				<input type="text" name="username">
+				<label>Password</label>
+				<input type="password" name="password">
+			</fieldset>
+			
+
+		</form>
+
+	</body>
+</html>

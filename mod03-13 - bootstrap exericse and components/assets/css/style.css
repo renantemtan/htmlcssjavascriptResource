@@ -1,0 +1,58 @@
+
+
+.top-left {
+	background-color: lightpink;
+}
+
+.top-middle {
+	background-color: lightblue;
+}
+
+.top-right {
+	background-color: lightgreen;
+}
+
+.sec-left {
+	background-color: darkred;
+	color: white;
+}
+
+.sec-middle {
+	background-color: darkblue;
+	color: white;
+}
+
+.sec-right {
+	background-color: darkgreen;
+}
+
+.inv {
+	height: 100px;
+	background-color: red;
+}
+
+.third-left {
+	background-color: lightyellow;
+}
+
+.third-middle {
+	background-color: cyan;
+}
+
+.third-right {
+	background-color: magenta;
+}
+
+.four-left {
+	background-color: purple;
+	color: white;
+}
+
+.four-middle {
+	background-color: gray;
+}
+
+.four-right {
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+		<h2>Tables:</h2>
+
+		<table border="1">
+			<tr>
+				<td>Column1 Row1</td>
+				<td>Column2 Row1</td>
+				<td>Column3 Row1</td>
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+				<td>Column3 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with Table Heading</h3>
+		<table border="1">
+			<tr>
+				<th>Column1 Heading</th>
+				<th>Column2 Heading</th>
+				<th>Column3 Heading</th>
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+				<td>Column3 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with colspan</h3>
+		<table border="1">
+			<tr>
+				<td colspan=2>Column1 Row1 with 2 colspan</td>
+				<td>Column2 Row1</td>
+
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+				<td>Column3 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with rowspan</h3>
+		<table border="1">
+			<tr>
+				<td rowspan=2>Column1 Row1 with 2 colspan</td>
+				<td>Column2 Row1</td>
+				<td>Column3 Row1</td>
+			</tr>
+			<tr>
+				<td>Column1 Row2</td>
+				<td>Column2 Row2</td>
+			</tr>
+			<tr>
+				<td>Column1 Row3</td>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<h3>Table with scope=col or row</h3>
+
+		<table border="1">
+			<tr>
+				<th>			Column1 Row1</th>
+				<th scope="col">Column2 Row1</th>
+				<th scope="col">Column3 Row1</th>
+			</tr>
+			<tr>
+				<th scope="row">Column1 Row2</th>
+				<td colspan="2">Column2 Row2</td>
+			</tr>
+			<tr>
+				<th>Column1 Row3</th>
+				<td>Column2 Row3</td>
+				<td>Column3 Row3</td>
+			</tr>
+		</table>
+
+		<hr/>
+		<h2>Forms</h2>
+
+		<form action="#" method="get">
+			<p>This is a in input type = TEXT</p>
+			<input type="text" name="textbox1" value="" placeholder="username" required>
+
+			<p>This is a in input type = PASSWORD</p>
+			<input type="password" name="passwordtextbox" placeholder="password" required>
+
+			<p>The following are input type = RADIO</p>
+			<input type="radio" name="category1" value="option1">Option1
+						<input type="radio" name="categoryFILElue="option2" checked>Option2
+			<input type="radio" name="cfilery1" valfileinputon3">Option3
+
+			<p>The follwowing are input type = CHECKBOX:</p>
+			<input type="checkbox" name="category1" value="option1" checked>Option1
+			<input type="checkbox" name="category1" value="option2">Option2
+			<input type="checkbox" name="category1" value="option3">Option3
+
+			<p>The follwowing is an input type = EMAIL </p>
+			<input type="email" name="emailbox">
+
+			<p>The follwowing is an input type = NUMBER </p>
+			<input type="number" name="numberbox" placeholder="number only">
+
+			<p>The follwowing is a TEXTAREA </p>
+			<textarea name="comments">default value</textarea>
+				
+
+			<p>The follwowing is a SELECT </p>
+
+			<select name="">
+				<option value="value1">Dropdown 1</option>
+				<option value="value2" selected>Dropdown 2</option>
+				<option value="value3">Dropdown 3</option>
+			</select>
+
+			<p>The follwowing is an input type = FILE </p>
+			<input type="file" name="fileinput">
+			
+			<p>The follwowing is an input type = FILE </p>
+			<input type="file" name="fileinput">			
+
+			<p>The follwowing is a LABEL beside an input file TEXT box </p>
+			<label>Label Text</label>
+			<input type="text" name="textbox">	
+
+			<p>The follwowing is an input type = SUBMIT.  It processes all data/all form objects within the form tag </p>
+			<input type="submit" name="submit">
+
+			<p>The following is a BUTTON with "Cancelled" text</p>
+			<button>Cancel</button>
+
+			<p>The following is an example of a FIELDSET (way to group an form objects)
+			</p>
+			<fieldset>
+				<legend>Login Form</legend>
+				<label>Username</label>
+				<input type="text" name="username">
+				<label>Password</label>
+				<input type="password" name="password">
+			</fieldset>
+			
+
+		</form>
+
+
+</body>
+</html>

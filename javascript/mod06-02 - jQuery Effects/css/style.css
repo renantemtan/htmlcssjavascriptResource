@@ -1,0 +1,11 @@
+div {
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	border: 2px solid darkred;
+	background-color: lightyellow;
+	margin: 20px;
+	float: left;
+	font-size: 	2em;
+}

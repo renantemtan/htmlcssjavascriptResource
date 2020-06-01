@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, p {
+	background-color: #dde0e3;
+/*	display: ;
+	padding: 30px 30px 30px 30px;
+	border: 2px solid #5d6063;
+	margin: 10px 10px 10px 10px;*/
+}
+
+
+
+em, strong, span {
+	background-color: #b2d6ff;
+	display: ;
+/*	padding: 50px;
+	margin: 50px;*/
+}
+
+div{
+/*	background-color: skyblue;
+	padding: 20px;
+	text-align: center;*/
+	/*border: 1px solid #5d6063;*/
+/*	border-radius: 5px;
+	width: 50%;*/
+}
+
+span {
+	font-size: 2em;
+	color: red;
+}
